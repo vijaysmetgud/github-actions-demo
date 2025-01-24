@@ -1,13 +1,13 @@
 name: hello-world
 on: push
 jobs:
-  my-job:
+  my-job1:
     runs-on: ubuntu-latest
     steps:
       - name: my-step1
         run: echo "Hello World!"
-  my-job:
+  my-job2:
     runs-on: ubuntu-latest
     steps:
       - name: my-step2
-        run: echo "Hello VIJAY! HW R U? !!"       
+        run: echo "Hello VIJAY! HW R U? !!"
